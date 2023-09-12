@@ -47,6 +47,7 @@ virsh net-update provisioning add-last dns-host YOUR-FILE.xml --live
 ```
 curl https://raw.githubusercontent.com/dbw7/m3-one-click-demo/main/example-manifests/combined-rke2-deploy.yaml > rke2.yaml
 ```
+- Note: This pre-configured RKE2 deployment manifest is specific to the setup outlined in our [Metal3](./metal3-setup.md) and [VBMH](./vbmh-setup.md) setup docs. If you have made changes to the setup, you may need to edit this manifest before deploying the cluster.
 
 8. Deploy the cluster
 ```
