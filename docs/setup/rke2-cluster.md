@@ -48,7 +48,7 @@ virsh net-update provisioning add-last dns-host dns.xml --live
 
 6. Inside of the Metal3-core vm, download the following file:
 ```
-curl https://raw.githubusercontent.com/dbw7/m3-one-click-demo/main/example-manifests/combined-rke2-deploy.yaml > rke2.yaml
+curl https://raw.githubusercontent.com/suse-edge/metal3-demo/rke2-example-manifests/sample-files/combined-deployment.yaml > rke2.yaml
 ```
 - Note: This pre-configured RKE2 deployment manifest is specific to the setup outlined in our [Metal3](./metal3-setup.md) and [VBMH](./vbmh-setup.md) setup docs. If you have made changes to the setup, you may need to edit this manifest before deploying the cluster.
 
