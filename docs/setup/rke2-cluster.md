@@ -52,13 +52,12 @@ curl https://raw.githubusercontent.com/suse-edge/metal3-demo/rke2-example-manife
 ```
 - Note: This pre-configured RKE2 deployment manifest is specific to the setup outlined in our [Metal3](./metal3-setup.md) and [VBMH](./vbmh-setup.md) setup docs. If you have made changes to the setup, you may need to edit this manifest before deploying the cluster.
 
-8. Deploy the cluster
+7. Deploy the cluster
 ```
 kubectl apply -f rke2.yaml
 ```
-- If you followed the [Metal3 Setup Readme](./metal3-setup.md) and [VBMH Readme](./vbmh-setup.md) exactly, you will not need to change anything. However, if you have differences in your setup, you may need to make changes to the RKE2 manifest.
 
-9. Verify that it's working
+8. Verify that it's working
 ```
 clusterctl describe cluster sample-cluster
 ```
